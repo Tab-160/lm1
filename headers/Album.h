@@ -24,7 +24,7 @@ class Album {
     public:
         // Constructor
         // Name, Artist, Genre, Publisher, and Release Year of album
-        Album(std::string n = NULL, std::string a = NULL, std::string g = NULL, std::string p = NULL, int r = -1);
+        Album(std::string n = "", std::string a = "", std::string g = "", std::string p = "", int r = -1);
 
         // Getters
         std::string get_name();

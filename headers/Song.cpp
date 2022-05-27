@@ -7,7 +7,7 @@
 
 // Constructors
 // Name and duration
-Song::Song(std::string n = NULL, double d = -1){
+Song::Song(std::string n = "", double d = -1){
     name = n;
     duration = d;
 }

@@ -15,7 +15,7 @@ class Song {
     public:
         // Constructors
         // Name and duration
-        Song(std::string n, double d);
+        Song(std::string n = "", double d = -1);
 
         // Getters
         std::string get_name();

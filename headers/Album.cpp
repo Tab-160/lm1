@@ -10,7 +10,7 @@
 
 // Constructor
 // Name, Artist, Genre, Publisher, and Release Year of album
-Album::Album(std::string n = NULL, std::string a = NULL, std::string g = NULL, std::string p = NULL, int r = -1){
+Album::Album(std::string n = "", std::string a = "", std::string g = "", std::string p = "", int r = -1){
     name = n;
     artist = a;
     genre = g;
